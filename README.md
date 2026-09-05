@@ -15,7 +15,7 @@ Add this registry to your project's `vcpkg-configuration.json`:
     {
       "kind": "git",
       "repository": "https://github.com/permitCore-spec/permitcore-vcpkg-registry",
-      "baseline": "<latest commit SHA of this repo's main branch>",
+      "baseline": "036c0fb1fd9f33c5c35dcee197e303f18e71f6c7",
       "packages": ["permitcore-sdk"]
     }
   ]
