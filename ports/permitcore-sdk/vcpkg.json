@@ -1,0 +1,11 @@
+{
+  "name": "permitcore-sdk",
+  "version": "1.0.0",
+  "description": "Official C++ client for PermitCore license management. Validate, activate, and deactivate license keys with built-in hardware fingerprinting and offline grace period caching.",
+  "homepage": "https://permitcore.dev",
+  "license": "MIT",
+  "dependencies": [
+    "curl",
+    "openssl"
+  ]
+}
