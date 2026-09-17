@@ -2,7 +2,7 @@ vcpkg_from_github(
     OUT_SOURCE_PATH SOURCE_PATH
     REPO permitCore-spec/permitcore-sdk-cpp
     REF "v${VERSION}"
-    SHA512 e22d15abee30069bc66f0e75045f030c4e156185fbe0b348eca55245bc8463cad09109e9fe204162969fe45bfcff5ccc96ccd78c23ca5f842c7ad9baaea02a67
+    SHA512 fd9ddd03470366a83da77cc9aba8da0084fdde5890e53175bc069bbbdbfd08ef581f94637511ee9ab85b04348332f522f1112f52a8581e0483747f995056aa8d
     HEAD_REF main
 )
 
