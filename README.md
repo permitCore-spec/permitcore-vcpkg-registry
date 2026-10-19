@@ -7,7 +7,9 @@ A custom vcpkg registry for the PermitCore C++ SDK. Source lives at
 
 ## Usage
 
-Add this registry to your project's `vcpkg-configuration.json`:
+Resolve the current registry commit with `git ls-remote
+https://github.com/permitCore-spec/permitcore-vcpkg-registry HEAD`, then replace the baseline
+placeholder in your project's `vcpkg-configuration.json`:
 
 ```json
 {
@@ -15,7 +17,7 @@ Add this registry to your project's `vcpkg-configuration.json`:
     {
       "kind": "git",
       "repository": "https://github.com/permitCore-spec/permitcore-vcpkg-registry",
-      "baseline": "114fce933895d40a5b380c03b6b0c3256bf0a86d",
+      "baseline": "REPLACE_WITH_REGISTRY_HEAD_COMMIT",
       "packages": ["permitcore-sdk"]
     }
   ]
