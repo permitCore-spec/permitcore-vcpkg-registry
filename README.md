@@ -53,3 +53,7 @@ target_link_libraries(main PRIVATE permitcore::permitcore)
    `git rev-parse HEAD:ports/permitcore-sdk` after committing).
 6. Update `versions/baseline.json`'s `baseline` to the new version.
 7. Commit and push.
+
+The 1.2.0 port exposes Store subscription payment status and payment grace metadata.
+Paid renewals keep the same key and advance paid-through; failed renewals use configurable
+14-day payment grace. Signed offline access remains bounded by paid-through plus grace.
